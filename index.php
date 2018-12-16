@@ -24,6 +24,10 @@ else if(isset($_GET['op']))
       case "130" : include('venta_final.php');break;
       case "140" : include('venta_nueva.php');break;
       case "150" : include('venta_procesa.php');break;
+      case "160" : include('cliente_listado.php');break;
+      case "170" : include('cliente_nuevo.php');break;
+      case "180" : include('cliente_editar.php');break;
+      case "190" : include('cliente_eliminar.php'); break;
     }
 include "pie.php";
 

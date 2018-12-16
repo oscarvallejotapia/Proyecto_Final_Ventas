@@ -7,7 +7,7 @@
 
 
 <section id="form_box" style="width: 500px; transform: translateX(90%);">
-	<header id="header_form" style="transform: translateX(5%); width: 340px;"> Introduce usuario y Contraseña<a class="nuevo" style="cursor: pointer;" onclick="registrar()">Registrate</a></header>
+	<header id="header_form" style="transform: translateX(5%); width: 340px;"> Introduce tu Usuario y Contraseña<a class="nuevo" style="cursor: pointer;" onclick="registrar()">Registrate</a></header>
 	<div>
 		<img src="images/user.png"  style="width: 90px; height: 90px; transform: translateX(180%);">
 	</div>

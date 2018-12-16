@@ -33,12 +33,13 @@
 		</header>
 			 <nav class="menu" id="menu_box" style="background-color: #000066;">
 				<ul>
-					<li style="width: 170px;"><a href="index.php?op=10" style="text-decoration: none;">Facturacion  <i class="icon ion-md-document"></i></a></li>
-					<li style="width: 200px;"><a href="index.php?op=40" style="text-decoration: none;">Distribuidores <i class="icon ion-md-briefcase"></i></a></li>
-					<li style="width: 120px;"><a href="index.php?op=30" style="text-decoration: none;">Garage <i class="icon ion-md-car"></i></a></li>
-					<li style="width: 140px;"><a href="index.php?op=50" style="text-decoration: none;">Usuarios <i class="icon ion-md-person"></i></a></li>
-					<li style="width: 140px;"><a href="index.php?op=90" style="text-decoration: none;">Ventas <i class="icon ion-md-pricetag"></i></a></li>
-					<li style="width: 200px; margin-right: -90px;"><a href="index.php?op=0" style="text-decoration: none;">Salir  <i class="icon ion-md-exit"></i></a></li>
+					<li style="width: 120px;"><a href="index.php?op=10" style="text-decoration: none;">Compras  <i class="icon ion-md-document"></i></a></li>
+					<li style="width: 170px;"><a href="index.php?op=40" style="text-decoration: none;">Proveedores <i class="icon ion-md-briefcase"></i></a></li>
+					<li style="width: 150px;"><a href="index.php?op=30" style="text-decoration: none;">Productos <i class="icon ion-md-car"></i></a></li>
+					<li style="width: 110px;"><a href="index.php?op=50" style="text-decoration: none;">Usuarios <i class="icon ion-md-person"></i></a></li>
+					<li style="width: 110px;"><a href="index.php?op=90" style="text-decoration: none;">Ventas <i class="icon ion-md-pricetag"></i></a></li>
+					<li style="width: 100px;"><a href="index.php?op=160" style="text-decoration: none;">Clientes <i class="icon ion-md-person"></i></a></li>
+					<li style="width: 130px; margin-right: -10px;"><a href="index.php?op=0" style="text-decoration: none;"> Salir <i class="icon ion-md-exit"></i></a></li>
 				</ul>
 			</nav>
 			<?php echo $user_nombre; ?>
