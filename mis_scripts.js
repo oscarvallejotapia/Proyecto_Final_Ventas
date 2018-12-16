@@ -54,6 +54,13 @@ function actualizaRfc()
 	document.getElementById('rfc').value=mi_nuevo_rfc;
 }
 
+function actualizaRfc2()
+{
+	mySelect=document.getElementById('cliente');
+	mi_nuevo_rfc=mySelect.options[mySelect.selectedIndex].getAttribute("mi_rfc");
+	document.getElementById('rfc').value=mi_nuevo_rfc;
+}
+
 
 function inicializaFecha()
 {

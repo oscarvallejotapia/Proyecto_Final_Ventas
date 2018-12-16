@@ -3,7 +3,7 @@ function bd_consulta($query)
 {
 	$hostname="localhost";
 	$user="root";
-	$password="";
+	$password="Privada";
 	$bd="compras";
 	$connection = mysqli_connect($hostname, $user, $password);
 	if($connection == false){
