@@ -1,0 +1,186 @@
+* {
+	margin: .2%;
+	padding: .2%;
+	border: 0px solid #000000;
+}
+header
+{
+	border: 3px solid #005B52;
+	padding:3px;
+	margin:.5%;
+}
+
+ #miformulario{
+	padding:15px 15px;
+ }
+ #totales{
+	float:right;
+	padding:5px 5px;
+ }
+ #totales label{
+	 display:inline-block;
+	 width:40%;
+	 float:left;
+	 clear:both;
+	 text-align:right;
+ }
+
+
+#form_box{
+	margin: 5px 5px;
+	border: 3px solid #005B52;
+	padding: 3px;
+}
+
+ #header_form{
+
+	 padding:5px;
+	 font-size:medium;
+	 border: 1px solid #000000;
+	 margin:1%;
+	 width: 500px;
+	 transform: translateX(80%);
+ }
+.myField
+{
+
+	display:inline-block;
+	margin: 5px 15px ;
+}
+.myField label
+{
+	display:inline;
+	width:20%;
+	color:black;
+	text-align:right;
+	vertical-align:middle;
+	margin: 2px;
+	padding:2px;
+
+}
+.myField input, .myField select
+{
+	margin: 2px;
+	padding:2px;
+	border: 1px solid #000000;
+	size:300px;
+}
+ .extracorto {
+	width:50px;
+	text-align:center;
+}
+ .corto {
+	width:150px;
+	text-align:center;
+}
+ .medio {
+	width:250px;
+}
+
+ .largo {
+	width:500px;
+}
+
+ .extralargo {
+	width:820px;
+}
+#tabla input:not(.totales){
+	width:95%;
+	text-align:center;
+}
+#tabla select{
+	width:95%;
+
+}
+ .totales{
+	width:95%;
+	text-align:right;
+
+ }
+#tabla td:nth-child(1){
+	width:5%;
+}
+#tabla td:nth-child(2){
+	width:5%;
+}
+#tabla td:nth-child(3){
+	width:50%;
+}
+#tabla td:nth-child(3) input{
+	text-align:left;
+}
+#tabla td:nth-child(4){
+	width:10%;
+}
+#tabla td:nth-child(5){
+	width:10%;
+}
+#encabezado_tabla{
+	border: 1px solid #000000;
+	text-align:center;
+	background-color: #666666;
+	color:white;
+	font:bold 14px verdana, sans-serif;
+ }
+
+ table, th, td {
+   border: 1px solid black;
+   padding:3px;
+
+}
+
+tr:hover {background-color: #d5d5d5;}
+
+  #tabla{
+	border: 1px solid #FF0000;
+	margin:5px;
+	border-collapse: collapse;
+ }
+
+ #tabla td{
+	 font-size: 15px;
+ }
+
+ #pie{
+	 clear:both;
+ }
+
+ #menu_box{
+	margin:0%;
+	border-radius: 5px;
+	background:;
+	padding:0%;
+ }
+ #menu_box a:hover{
+ 	 color: #ff6f00;
+  }
+
+#menu_box li{
+	 display: inline-block;
+	 list-style:none;
+	 margin: 1% 2%;
+	 border: 0px solid #000000;
+ }
+#menu_box li a{
+	 font: bold	1.5vw verdana, sans-serif;
+	 color:white;
+ }
+#menu_box ul{
+	 border: 0px solid #000000;
+ }
+#menu_box li:last-child{
+	 float:right;
+ }
+#menu_box li:last-child a{
+	color:white;
+ }
+
+ .nuevo{
+ 	float: right;
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ .nuevo:hover {
+ 	 color: #39DC79;
+ }
